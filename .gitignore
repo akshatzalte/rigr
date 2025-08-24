@@ -1,3 +1,5 @@
 multiple_splits.json
 *.log
 submit.sh
+results/
+results_sampl_production/
