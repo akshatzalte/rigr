@@ -3,7 +3,7 @@ echo 'date: ' $(date)
 conda activate chemprop
 
 results_dir="results"
-data_path="/home/akshatz/bond_order_free/barriers_cycloadd/dataset/cycloadd_data.csv"
+data_path="/home/akshatz/bond_order_free/barriers_e2/dataset/e2_data.csv"
 splits_path="../multiple_splits.json"
 
 #Training with optimized hyperparameters
@@ -17,14 +17,12 @@ chemprop train \
 --aggregation norm \
 --no-batch-norm \
 --save-dir $results_dir \
+--reaction-columns AAM \
+--keep-h \
 --ensemble-size 5 \
 --num-folds 5 \
 --metrics mae \
---reaction-columns rxn_smiles \
---target-columns G_act \
 --config-path best_config.toml \
---add-h \
---keep-h \
 --accelerator gpu \
 --devices 1 \
 --molecule-featurizers charge 
