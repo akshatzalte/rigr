@@ -1,8 +1,8 @@
 # RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction
 
-[![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--qgfxp-blue.svg)](https://doi.org/10.1021/acs.jcim.5c00495)
+[![DOI](https://img.shields.io/badge/DOI-10.1021%2Facs.jcim.5c00495-blue.svg)](https://doi.org/10.1021/acs.jcim.5c00495)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14942334.svg)](https://doi.org/10.5281/zenodo.14942334)
+[![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.14942334.svg)](https://doi.org/10.5281/zenodo.14942334)
 
 Welcome to the user information page for RIGR.  
 **60% fewer features, resonance-invariant, and delivering the same high performance!**
