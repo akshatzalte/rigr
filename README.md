@@ -1,6 +1,6 @@
 # RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction
 
-[![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--qgfxp-blue.svg)](https://doi.org/10.26434/chemrxiv-2025-qgfxp)
+[![DOI](https://img.shields.io/badge/DOI-10.26434%2Fchemrxiv--2025--qgfxp-blue.svg)](https://doi.org/10.1021/acs.jcim.5c00495)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14942334.svg)](https://doi.org/10.5281/zenodo.14942334)
 
@@ -9,7 +9,7 @@ Welcome to the user information page for RIGR.
 
 ![rigr_toc](images/rigr_toc-13.svg)
 
-RIGR is introduced and discussed in our work: [**RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction**](https://doi.org/10.26434/chemrxiv-2025-qgfxp). It is  designed to impose resonance invariance for molecular property prediction tasks and is accesible as a featurizer in [**Chemprop v2**](https://github.com/chemprop/chemprop) (available in versions 2.1.2 and above).
+RIGR is introduced and discussed in our work: **RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction**([paper](https://doi.org/10.1021/acs.jcim.5c00495), [preprint](https://doi.org/10.26434/chemrxiv-2025-qgfxp-v2)). It is  designed to impose resonance invariance for molecular property prediction tasks and is accesible as a featurizer in [**Chemprop v2**](https://github.com/chemprop/chemprop) (available in versions 2.1.2 and above).
 
 - **For CLI users**: RIGR is available as a choice for the multi-hot atom featurization scheme. To use RIGR, add the following argument to your training or inference script.
    ```bash
@@ -68,12 +68,16 @@ The table below provides details on which branch corresponds to specific analyse
 Relevant citations if this work is useful to you:
 
 ```bibtex
-@misc{https://doi.org/10.26434/chemrxiv-2025-qgfxp,
-  doi = {10.26434/chemrxiv-2025-qgfxp},
-  url = {https://doi.org/10.26434/chemrxiv-2025-qgfxp},
-  author = {Zalte, Akshat Shirish and Pang, Hao-Wei and Doner, Anna C. and Green, William H.},
-  title = {RIGR: Resonance Invariant Graph Representation for Molecular Property Prediction},
-  publisher = {ChemRxiv},
-  year = {2025},
+@article{doi:10.1021/acs.jcim.5c00495,
+author = {Zalte, Akshat Shirish and Pang, Hao-Wei and Doner, Anna C. and Green, William H.},
+title = {RIGR: Resonance-Invariant Graph Representation for Molecular Property Prediction},
+journal = {Journal of Chemical Information and Modeling},
+volume = {65},
+number = {20},
+pages = {10832-10843},
+year = {2025},
+doi = {10.1021/acs.jcim.5c00495},
+URL = {https://doi.org/10.1021/acs.jcim.5c00495},
+eprint = {https://doi.org/10.1021/acs.jcim.5c00495}
 }
 ```
